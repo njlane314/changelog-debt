@@ -1,4 +1,4 @@
-# Changelog Debt
+# Palimpsest
 
 Detect customer-visible changes before they become changelog debt.
 
@@ -22,7 +22,7 @@ pnpm changelog-debt scan --base origin/main --head HEAD --format json
 Use `actions/checkout` with full history so git comparisons are available.
 
 ```yaml
-name: Changelog Debt
+name: Palimpsest
 
 on:
   pull_request:
@@ -45,7 +45,7 @@ jobs:
           node-version: 20
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      - uses: Eidetic-Research/changelog-debt@v1
+      - uses: Eidetic-Research/palimpsest@v1
         with:
           mode: warn
           comment: true
