@@ -1,6 +1,6 @@
-name: PatchProof Changelog Debt
+name: Eidetic Research Changelog Debt
 description: "Catch customer-visible changes without release notes."
-author: njlane314
+author: Eidetic Research
 branding:
   icon: shield
   color: blue
