@@ -1,9 +1,9 @@
 {
   "name": "changelog-debt",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A pre-merge guard for customer-visible changes without release notes.",
   "type": "module",
-  "license": "MIT",
+  "license": "BUSL-1.1",
   "private": false,
   "engines": {
     "node": ">=20"

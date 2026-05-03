@@ -50500,7 +50500,7 @@ function preprocess(fn, schema) {
 
 
 const TOOL_NAME = 'changelog-debt';
-const VERSION = '0.1.0';
+const VERSION = '0.1.1';
 const DEFAULT_CONFIG_PATH = '.github/changelog-debt.yml';
 const ConfigSchema = object({
     mode: schemas_enum(['warn', 'fail']).default('warn'),
