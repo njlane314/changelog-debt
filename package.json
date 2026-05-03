@@ -1,6 +1,6 @@
 {
   "name": "changelog-debt",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A pre-merge guard for customer-visible changes without release notes.",
   "type": "module",
   "license": "BUSL-1.1",

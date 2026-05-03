@@ -1,6 +1,9 @@
-name: Changelog Debt
-description: "A pre-merge guard for customer-visible changes without release notes."
+name: PatchProof Changelog Debt
+description: "Catch customer-visible changes without release notes."
 author: njlane314
+branding:
+  icon: shield
+  color: blue
 inputs:
   base:
     description: "Base git ref. Defaults to the pull request base SHA/ref."
